@@ -11,10 +11,11 @@ function calculate(n, x) {
     let sum = 0;
 
     for(let i = 0; i < num; i++){
-        sum += i
+        let b = ((-1) ** i * (num1 * 2 * i)) / (2 * i + 1)
+        sum = sum + b
     }
 
-    return result = ((-1) ** sum * (num1 * 2 * sum)) / (2 * sum + 1)
+    return result = sum
 }
 
 function answearText() {
